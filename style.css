@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto";
+}
+
+/* //////////////////////////////////////PRE-DEFINE-CLASSES-STARTED//////////////////////////////////////////// */
+
+.W-100{
+    width: 100%;
+}
+.w-70{
+    width: 70%;
+}
+.w-30{
+    width: 30%;
+}
+.w-20{
+    width: 20%;
+}
+/* /////////////////////////////////////////PRE-DEFINE-CLASSES-END//////////////////////////////////////////// */
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  } 
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+
+/* //////////////////////////////////////COL-LG-2-SECTION-STARTED//////////////////////////////////////////// */
+
+.nav-main{
+    background-image: linear-gradient(to right,#079BF2, #09C6F9);
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.menu{
+    padding-top: 25px;
+    padding-left: 20px;
+    position: relative;
+}
+.icon-menu h2{
+    position: relative;
+    top: -43px;
+    left: 70px;
+    font-size: 32px;
+}
+.icon-menu:hover{
+    color: white;
+    text-decoration: none;
+}
+.icon-menu h2:hover{
+    color: white;
+    text-decoration: none;
+}
+.icon-menu {
+    color: white;
+    text-decoration: none;
+}
+.icon-menu .menu{
+    font-size: 40px;
+}
+.icon-help{
+    position: relative;
+    top: 43px;
+    left: 540px;
+    color: white;
+}
+ .account{
+    position: relative;
+    top: 43px;
+    left: 425px;
+    color: white;
+}
+.account h4{
+    position: relative;
+    top: -34px;
+    left: 275px;
+}
+
+
+/* //////////////////////////////////////COL-LG-2-SECTION-CLOSED//////////////////////////////////////////// */
+
+
+/* //////////////////////////////////////SIDE-BAR-SECTION-STARTED////////////////////////////////////////// */
+.side-bar{
+    background-image: linear-gradient(to right,#079BF2, #09C6F9);   
+    width: 296px;
+    height: 100vh;
+}
+.dashboard-icon{
+    color: white;
+    position: relative;
+    top: 35px;
+    left: 30px;
+}
+.dashboard a:hover{
+    text-decoration: none;
+    color: #042B64;
+    transition: 0.9s;
+}
+.dashboard a{
+    position: relative;
+    top: 0;
+    left: 70px;
+    color: white;
+    font-size: 25px;
+}   
+/* //////////////////////////////////////SIDE-BAR-SECTION-CLOSED/////////////////////////////////////////// */
+
+
+/* //////////////////////////////////////COL-LG-10-SECTION-STARTED//////////////////////////////////////// */
+.gps{
+    position: relative;
+    top: 20px;
+    left: 190px;
+}
+.gps:hover{
+    text-decoration: none;
+}
+.add-box-1{
+    position: relative;
+    top: 20px;
+    left: 395px;
+}
+.analytics{
+    border-radius:30px;
+    color: white;
+    background-image: linear-gradient(#079BF2, #09C6F9);   
+    padding: 10px
+}
+.list-1{
+    position: relative;
+    top: -25px;
+    left: 696px;
+}
+.analytics-1{
+    position: relative;
+    top: -70px;
+    left: 947px;
+}
+.line{
+    width: 209px;
+    height: 2px;
+    background-color: grey;
+    position: relative;
+    top: -2px;
+    left: 234px;
+}
+
+.line-1 {
+    width: 209px;
+    height: 2px;
+    background-color: grey;
+    position: relative;
+    top: -48px;
+    left: 487px;
+}
+
+.line-2 {
+    width: 209px;
+    height: 2px;
+    background-color: grey;
+    position: relative;
+    top: -94px;
+    left: 738px;
+}
+.line-3 {
+    width: 1554px;
+    height: 1px;
+    background-color: grey;
+    position: relative;
+    top: 40px;
+    left: -15px;
+}
+.line-4 {
+    width: 1554px;
+    height: 1px;
+    background-color: grey;
+    position: relative;
+    top: -50px;
+    left: -15px;
+}
+.line-5 {
+    width: 1000px;
+    height: 1px;
+    background-color: grey;
+    position: relative;
+    top: 451px;
+    left: -490px;
+    transform: rotate(90deg);;
+}
+.line-6 {
+    width: 1000px;
+    height: 1px;
+    background-color: grey;
+    position: relative;
+    top: 540px;
+    left: -381px;
+    transform: rotate(90deg);
+}
+.heading-main h2{
+    color: #042B64;
+    font-weight: 600;
+    position: relative;
+    top: -30px;
+}
+.dropdown select{
+    width: 120px;
+     position: relative;
+    left: 220px;
+    top: -75px;
+    padding: 10px;
+    padding-left: 20px;
+}
+.box{
+    background-color: white;
+    width: 100%;
+    box-shadow: 0px 0px 5px -3px black ;
+    height: 253px;
+}
+.pencil{
+    background-image: linear-gradient(#079BF2, #09C6F9);   
+    padding: 10px;
+    color: white;
+    position: relative;
+    left: 1020px;
+}
+.text-list{
+    background-image: linear-gradient(to right,#045DE9, #48D4FA);   
+    border-radius: 6px 6px 0px 0px;
+    width: 1020px;
+    margin-left: 20px;
+}
+.box-two{
+    margin-top: 20px;
+}
+.heading-4{
+    text-align: center;
+    padding-top: 10px;
+}
+.heading-4 a{
+    color: white; 
+}
+.heading-4 a:hover{
+    text-decoration: none;
+    color: #333333;
+}
+.color-box{
+    width: 1020px;
+    background-color: #EAF0F4;
+    margin-left: 20px  ;
+    padding: 20px;
+}
+.color-box-1{
+    width: 1020px;
+    background-color: #F6F6F6;
+    margin-left: 20px  ;
+    padding: 20px;
+}
+.color-box-2{
+    width: 1020px;
+    background-color: #EAF0F4;
+    margin-left: 20px  ;
+    padding: 20px;
+}
+.heading-top h2{
+    color: #042B64;
+    font-weight: 600;
+    position: relative;
+    top: -20px;
+    left: 30px;
+}
+.add-box{
+    position: relative;
+    top: -60px;
+    left: 370px;
+}
+.add-icon h5{
+    position: relative;
+    top: -92px;
+    left: 395px;
+    text-decoration: underline;
+}
+.add-icon a{
+    color: #042B64;
+    font-weight: 600;
+}
+.add-box{
+    color: #48B05D;
+}
+
+.side-article{
+    color: #042B64;
+    position: relative;
+    top: -26px;
+    left: 50px;
+}
+.article-side{
+    color: #042B64;
+}
+.side-list h6   a{
+    color: #042B64;
+    font-weight: 600;
+    position: relative;
+    top: -20px;
+    left: 24px;
+}
+ 
+/* //////////////////////////////////////COL-LG-10-SECTION-CLOSED//////////////////////////////////////// */
+
+ 
